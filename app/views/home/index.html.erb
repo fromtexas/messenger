@@ -1,0 +1,55 @@
+
+<div class="row">
+  <div class="col-md-3 no-p-r">
+      <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title text-center">search</h3>
+        <form class="form-group">
+        <input placeholder="email"  type="text" class="form-control" id='sug' >
+       
+        
+       
+      </form>
+      </div>
+      <div class="panel-body">
+      <%=link_to 'logout', destroy_user_session_path, :method => :delete, class:'btn btn-danger logout-b'%>
+
+        <ul id='list' class="text-center ">
+          <% @list.each do |f| %>
+
+          <%@cont = User.where(id:[f.user_id,f.contact_id])%>
+          <%@cont.each do |f|%>
+          <%if current_user.id != f.id%>
+       
+          <li ><%= link_to f.email, conversations_path(user_id: f), remote: true, method: :post, class:'btn btn-info logout-b' %></li>
+          
+          <% end %>
+          <% end %>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+   <ul class="toggeled-panels">
+     <%@conversations.each do |f|%>
+     <%if f.toggled_users.include?(current_user.id)%>
+     <li>
+     <div class="panel panel-primary" data-conversation-id="<%=f.id%>">
+     <div class="panel-heading">
+     <%=link_to f.opposed_user(current_user).email, toggleUpscale_conversation_path(f), remote: true, method: :post%>
+     
+     </div>
+     </div>
+     </li>
+     <%end%>
+     <%end%>
+   </ul>
+  </div>
+ 
+  <div class="col-md-9 no-p-l">
+ <ul id="conversations-list">
+      <% @conversations.each do |conversation| %>
+        <%= render 'conversations/conversation', conversation: conversation, user: current_user %>
+      <% end %>
+    </ul>
+  </div>
+</div>

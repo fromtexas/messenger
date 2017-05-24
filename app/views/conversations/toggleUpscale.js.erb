@@ -1,0 +1,4 @@
+
+
+$('#conversations-list').find("[data-conversation-id='" + "<%= @conversation.id %>" + "']").parent().removeClass('small-conv');
+$('.toggeled-panels').find("[data-conversation-id='" + "<%= @conversation.id %>" + "']").parent().hide();

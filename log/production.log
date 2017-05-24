@@ -1,0 +1,333 @@
+I, [2017-05-01T23:49:09.968914 #9760]  INFO -- : [4d2e9d2f-d188-41f9-9741-0e5ebcdd601f] Started GET "/cable" for 127.0.0.1 at 2017-05-01 23:49:09 +0300
+I, [2017-05-01T23:49:10.031856 #9760]  INFO -- : [4d2e9d2f-d188-41f9-9741-0e5ebcdd601f] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:10 +0300
+I, [2017-05-01T23:49:10.032022 #9760]  INFO -- : [4d2e9d2f-d188-41f9-9741-0e5ebcdd601f] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+E, [2017-05-01T23:49:10.054908 #9760] ERROR -- : An unauthorized connection attempt was rejected
+E, [2017-05-01T23:49:10.056920 #9760] ERROR -- : Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2017-05-01T23:49:10.057499 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:10 +0300
+I, [2017-05-01T23:49:10.058067 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:10 +0300
+I, [2017-05-01T23:49:16.120711 #9760]  INFO -- : [c0765285-aab4-4a5b-9cf2-849f84bcbfb6] Started GET "/" for 127.0.0.1 at 2017-05-01 23:49:16 +0300
+I, [2017-05-01T23:49:16.122268 #9760]  INFO -- : [c0765285-aab4-4a5b-9cf2-849f84bcbfb6] Processing by HomeController#index as HTML
+I, [2017-05-01T23:49:16.127709 #9760]  INFO -- : [c0765285-aab4-4a5b-9cf2-849f84bcbfb6] Completed 401 Unauthorized in 5ms
+I, [2017-05-01T23:49:16.149555 #9760]  INFO -- : [494f8bde-afda-41a9-9609-a103f9188273] Started GET "/users/sign_in" for 127.0.0.1 at 2017-05-01 23:49:16 +0300
+I, [2017-05-01T23:49:16.151134 #9760]  INFO -- : [494f8bde-afda-41a9-9609-a103f9188273] Processing by Devise::SessionsController#new as HTML
+I, [2017-05-01T23:49:16.204169 #9760]  INFO -- : [494f8bde-afda-41a9-9609-a103f9188273]   Rendering devise/sessions/new.html.erb within layouts/application
+I, [2017-05-01T23:49:16.209504 #9760]  INFO -- : [494f8bde-afda-41a9-9609-a103f9188273]   Rendered devise/shared/_links.html.erb (1.5ms)
+I, [2017-05-01T23:49:16.209694 #9760]  INFO -- : [494f8bde-afda-41a9-9609-a103f9188273]   Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+I, [2017-05-01T23:49:16.211669 #9760]  INFO -- : [494f8bde-afda-41a9-9609-a103f9188273] Completed 200 OK in 60ms (Views: 9.8ms | ActiveRecord: 11.9ms)
+I, [2017-05-01T23:49:16.449141 #9760]  INFO -- : [a0069dcd-ecb8-4771-a23e-697bfa8d9794] Started GET "/cable" for 127.0.0.1 at 2017-05-01 23:49:16 +0300
+I, [2017-05-01T23:49:16.449799 #9760]  INFO -- : [a0069dcd-ecb8-4771-a23e-697bfa8d9794] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:16 +0300
+I, [2017-05-01T23:49:16.449898 #9760]  INFO -- : [a0069dcd-ecb8-4771-a23e-697bfa8d9794] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+E, [2017-05-01T23:49:16.450916 #9760] ERROR -- : An unauthorized connection attempt was rejected
+E, [2017-05-01T23:49:16.451139 #9760] ERROR -- : Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2017-05-01T23:49:16.451257 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:16 +0300
+I, [2017-05-01T23:49:16.451845 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:16 +0300
+I, [2017-05-01T23:49:17.303664 #9760]  INFO -- : [e80fd18a-caa7-4622-983b-0bf4c17bad72] Started GET "/cable" for 127.0.0.1 at 2017-05-01 23:49:17 +0300
+I, [2017-05-01T23:49:17.304540 #9760]  INFO -- : [e80fd18a-caa7-4622-983b-0bf4c17bad72] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:17 +0300
+I, [2017-05-01T23:49:17.304703 #9760]  INFO -- : [e80fd18a-caa7-4622-983b-0bf4c17bad72] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+E, [2017-05-01T23:49:17.306229 #9760] ERROR -- : An unauthorized connection attempt was rejected
+E, [2017-05-01T23:49:17.306508 #9760] ERROR -- : Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2017-05-01T23:49:17.306724 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:17 +0300
+I, [2017-05-01T23:49:17.308064 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:17 +0300
+I, [2017-05-01T23:49:25.920197 #9760]  INFO -- : [d8e09ac5-1330-4ba6-889f-8337ec7ab10a] Started GET "/cable" for 127.0.0.1 at 2017-05-01 23:49:25 +0300
+I, [2017-05-01T23:49:25.921235 #9760]  INFO -- : [d8e09ac5-1330-4ba6-889f-8337ec7ab10a] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:25 +0300
+I, [2017-05-01T23:49:25.921392 #9760]  INFO -- : [d8e09ac5-1330-4ba6-889f-8337ec7ab10a] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+E, [2017-05-01T23:49:25.922813 #9760] ERROR -- : An unauthorized connection attempt was rejected
+E, [2017-05-01T23:49:25.923231 #9760] ERROR -- : Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+I, [2017-05-01T23:49:25.923431 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:25 +0300
+I, [2017-05-01T23:49:25.924410 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:25 +0300
+I, [2017-05-01T23:49:37.542357 #9760]  INFO -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c] Started POST "/users/sign_in" for 127.0.0.1 at 2017-05-01 23:49:37 +0300
+I, [2017-05-01T23:49:37.544940 #9760]  INFO -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c] Processing by Devise::SessionsController#create as HTML
+I, [2017-05-01T23:49:37.545165 #9760]  INFO -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"tyhOMmqvPcNwU09iZqwW2zeIfFKPDqxw1encOgIkkBnWnwiF+UE+7hikMuSW88QyoTdjJsVkoJ/xgG2VnBNl9A==", "user"=>{"email"=>"user-1@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+D, [2017-05-01T23:49:37.552223 #9760] DEBUG -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c]   [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "user-1@example.com"], ["LIMIT", 1]]
+D, [2017-05-01T23:49:37.782868 #9760] DEBUG -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c]   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-01T23:49:37.786827 #9760] DEBUG -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c]   [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", 2017-05-01 20:49:37 UTC], ["last_sign_in_at", 2017-05-01 20:32:24 UTC], ["sign_in_count", 3], ["updated_at", 2017-05-01 20:49:37 UTC], ["id", 1]]
+D, [2017-05-01T23:49:37.817829 #9760] DEBUG -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c]   [1m[35m (30.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-01T23:49:37.821245 #9760]  INFO -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c] Redirected to http://localhost:3000/
+D, [2017-05-01T23:49:37.821992 #9760] DEBUG -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c]   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-01T23:49:37.823664 #9760] DEBUG -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c]   [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = '2017-05-01 20:49:37.822203' WHERE "users"."id" = $1[0m  [["id", 1]]
+D, [2017-05-01T23:49:37.829057 #9760] DEBUG -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c]   [1m[35m (5.0ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-01T23:49:37.829495 #9760]  INFO -- : [1b0f75fb-d8af-4a8d-9c85-a3f37670ba3c] Completed 302 Found in 284ms (ActiveRecord: 39.4ms)
+I, [2017-05-01T23:49:37.834979 #9760]  INFO -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7] Started GET "/" for 127.0.0.1 at 2017-05-01 23:49:37 +0300
+I, [2017-05-01T23:49:37.835809 #9760]  INFO -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7] Processing by HomeController#index as HTML
+D, [2017-05-01T23:49:37.838094 #9760] DEBUG -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-01T23:49:37.846998 #9760]  INFO -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   Rendering home/index.html.erb within layouts/application
+D, [2017-05-01T23:49:37.849707 #9760] DEBUG -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   [1m[36mList Load (0.7ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE ("lists"."user_id" = $1 OR "lists"."contact_id" = $2)[0m  [["user_id", 1], ["contact_id", 1]]
+D, [2017-05-01T23:49:37.857965 #9760] DEBUG -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4)[0m
+D, [2017-05-01T23:49:37.859708 #9760] DEBUG -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (6, 1)[0m
+D, [2017-05-01T23:49:37.861313 #9760] DEBUG -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 1)[0m
+D, [2017-05-01T23:49:37.863974 #9760] DEBUG -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 3)[0m
+I, [2017-05-01T23:49:37.864869 #9760]  INFO -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   Rendered home/index.html.erb within layouts/application (17.7ms)
+D, [2017-05-01T23:49:37.866256 #9760] DEBUG -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-01T23:49:37.867800 #9760] DEBUG -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = '2017-05-01 20:49:37.866444' WHERE "users"."id" = $1[0m  [["id", 1]]
+D, [2017-05-01T23:49:37.873326 #9760] DEBUG -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7]   [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-01T23:49:37.873600 #9760]  INFO -- : [1cddd8c6-1c07-4bde-a56b-59e3d37ca7f7] Completed 200 OK in 38ms (Views: 15.0ms | ActiveRecord: 15.1ms)
+I, [2017-05-01T23:49:38.105446 #9760]  INFO -- : [7a16f0f9-3a01-4319-bad1-d9147dfce42c] Started GET "/cable" for 127.0.0.1 at 2017-05-01 23:49:38 +0300
+I, [2017-05-01T23:49:38.106180 #9760]  INFO -- : [7a16f0f9-3a01-4319-bad1-d9147dfce42c] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:38 +0300
+I, [2017-05-01T23:49:38.106275 #9760]  INFO -- : [7a16f0f9-3a01-4319-bad1-d9147dfce42c] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+D, [2017-05-01T23:49:38.108787 #9760] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-01T23:49:38.109551 #9760]  INFO -- : Registered connection (Z2lkOi8vZmFjZWNoYXQvVXNlci8x)
+I, [2017-05-01T23:49:39.030614 #9760]  INFO -- : [0064e873-3e2e-4a76-a0c0-3fb876600959] Started GET "/cable" for 127.0.0.1 at 2017-05-01 23:49:39 +0300
+I, [2017-05-01T23:49:39.031360 #9760]  INFO -- : [0064e873-3e2e-4a76-a0c0-3fb876600959] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:39 +0300
+I, [2017-05-01T23:49:39.031479 #9760]  INFO -- : [0064e873-3e2e-4a76-a0c0-3fb876600959] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+E, [2017-05-01T23:49:39.032793 #9760] ERROR -- : An unauthorized connection attempt was rejected
+E, [2017-05-01T23:49:39.033087 #9760] ERROR -- : Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2017-05-01T23:49:39.033262 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:39 +0300
+I, [2017-05-01T23:49:39.036463 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:39 +0300
+I, [2017-05-01T23:49:51.536695 #9760]  INFO -- : [dfce0bc1-fd99-44a7-b2b8-a98ad09fe7f0] Started GET "/" for 127.0.0.1 at 2017-05-01 23:49:51 +0300
+I, [2017-05-01T23:49:51.537795 #9760]  INFO -- : [dfce0bc1-fd99-44a7-b2b8-a98ad09fe7f0] Processing by HomeController#index as HTML
+I, [2017-05-01T23:49:51.539007 #9760]  INFO -- : [dfce0bc1-fd99-44a7-b2b8-a98ad09fe7f0] Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+I, [2017-05-01T23:49:51.557036 #9760]  INFO -- : [03b28203-5e0d-4f70-ac4d-6b2919126f2f] Started GET "/users/sign_in" for 127.0.0.1 at 2017-05-01 23:49:51 +0300
+I, [2017-05-01T23:49:51.558041 #9760]  INFO -- : [03b28203-5e0d-4f70-ac4d-6b2919126f2f] Processing by Devise::SessionsController#new as HTML
+I, [2017-05-01T23:49:51.560264 #9760]  INFO -- : [03b28203-5e0d-4f70-ac4d-6b2919126f2f]   Rendering devise/sessions/new.html.erb within layouts/application
+I, [2017-05-01T23:49:51.566014 #9760]  INFO -- : [03b28203-5e0d-4f70-ac4d-6b2919126f2f]   Rendered devise/shared/_links.html.erb (1.2ms)
+I, [2017-05-01T23:49:51.566531 #9760]  INFO -- : [03b28203-5e0d-4f70-ac4d-6b2919126f2f]   Rendered devise/sessions/new.html.erb within layouts/application (6.1ms)
+I, [2017-05-01T23:49:51.568681 #9760]  INFO -- : [03b28203-5e0d-4f70-ac4d-6b2919126f2f] Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+I, [2017-05-01T23:49:52.370263 #9760]  INFO -- : [90de8fb8-8a4f-4296-b592-7b71a5724a9d] Started GET "/cable" for 127.0.0.1 at 2017-05-01 23:49:52 +0300
+I, [2017-05-01T23:49:52.370830 #9760]  INFO -- : [90de8fb8-8a4f-4296-b592-7b71a5724a9d] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:52 +0300
+I, [2017-05-01T23:49:52.370923 #9760]  INFO -- : [90de8fb8-8a4f-4296-b592-7b71a5724a9d] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+E, [2017-05-01T23:49:52.371892 #9760] ERROR -- : An unauthorized connection attempt was rejected
+E, [2017-05-01T23:49:52.372075 #9760] ERROR -- : Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+I, [2017-05-01T23:49:52.372213 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:52 +0300
+I, [2017-05-01T23:49:52.377427 #9760]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:49:52 +0300
+I, [2017-05-01T23:49:59.496227 #9760]  INFO -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85] Started POST "/users/sign_in" for 127.0.0.1 at 2017-05-01 23:49:59 +0300
+I, [2017-05-01T23:49:59.497430 #9760]  INFO -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85] Processing by Devise::SessionsController#create as HTML
+I, [2017-05-01T23:49:59.497603 #9760]  INFO -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"G61bx9BoWTIFj5MmWnlynMPC3OgBakCEsRYCtTfeEWa9wNdlkf08+L+ME02+95hy/aUbXOlMoq51EK9TLSkYXA==", "user"=>{"email"=>"user-2@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+D, [2017-05-01T23:49:59.501630 #9760] DEBUG -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "user-2@example.com"], ["LIMIT", 1]]
+D, [2017-05-01T23:49:59.717482 #9760] DEBUG -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85]   [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-01T23:49:59.720637 #9760] DEBUG -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85]   [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["current_sign_in_at", 2017-05-01 20:49:59 UTC], ["sign_in_count", 2], ["updated_at", 2017-05-01 20:49:59 UTC], ["id", 2]]
+D, [2017-05-01T23:49:59.754075 #9760] DEBUG -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85]   [1m[35m (32.9ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-01T23:49:59.755174 #9760]  INFO -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85] Redirected to http://localhost:3000/
+D, [2017-05-01T23:49:59.755654 #9760] DEBUG -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-01T23:49:59.756926 #9760] DEBUG -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85]   [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = '2017-05-01 20:49:59.755815' WHERE "users"."id" = $1[0m  [["id", 2]]
+D, [2017-05-01T23:49:59.765179 #9760] DEBUG -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85]   [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-01T23:49:59.765459 #9760]  INFO -- : [b8fd1898-7a22-47c5-a3f1-79f0ac55de85] Completed 302 Found in 268ms (ActiveRecord: 43.5ms)
+I, [2017-05-01T23:49:59.769701 #9760]  INFO -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694] Started GET "/" for 127.0.0.1 at 2017-05-01 23:49:59 +0300
+I, [2017-05-01T23:49:59.770893 #9760]  INFO -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694] Processing by HomeController#index as HTML
+D, [2017-05-01T23:49:59.773896 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+I, [2017-05-01T23:49:59.776922 #9760]  INFO -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   Rendering home/index.html.erb within layouts/application
+D, [2017-05-01T23:49:59.778763 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[36mList Load (0.6ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE ("lists"."user_id" = $1 OR "lists"."contact_id" = $2)[0m  [["user_id", 2], ["contact_id", 2]]
+D, [2017-05-01T23:49:59.781145 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 6)[0m
+D, [2017-05-01T23:49:59.783295 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 3)[0m
+D, [2017-05-01T23:49:59.787113 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 4)[0m
+D, [2017-05-01T23:49:59.789130 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 5)[0m
+D, [2017-05-01T23:49:59.791248 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 1)[0m
+D, [2017-05-01T23:49:59.793435 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 2)[0m
+D, [2017-05-01T23:49:59.795290 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 7)[0m
+I, [2017-05-01T23:49:59.796355 #9760]  INFO -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   Rendered home/index.html.erb within layouts/application (19.2ms)
+D, [2017-05-01T23:49:59.797831 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-01T23:49:59.799363 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = '2017-05-01 20:49:59.798037' WHERE "users"."id" = $1[0m  [["id", 2]]
+D, [2017-05-01T23:49:59.809515 #9760] DEBUG -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694]   [1m[35m (9.9ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-01T23:49:59.809801 #9760]  INFO -- : [8f91fba1-bc00-49df-8dc5-81a994ecd694] Completed 200 OK in 39ms (Views: 15.1ms | ActiveRecord: 17.3ms)
+I, [2017-05-01T23:50:00.329644 #9760]  INFO -- : [87084079-aa0e-42fd-b3c2-3089442099d4] Started GET "/cable" for 127.0.0.1 at 2017-05-01 23:50:00 +0300
+I, [2017-05-01T23:50:00.330199 #9760]  INFO -- : [87084079-aa0e-42fd-b3c2-3089442099d4] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:50:00 +0300
+I, [2017-05-01T23:50:00.330276 #9760]  INFO -- : [87084079-aa0e-42fd-b3c2-3089442099d4] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+D, [2017-05-01T23:50:00.332636 #9760] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+I, [2017-05-01T23:50:00.333331 #9760]  INFO -- : Registered connection (Z2lkOi8vZmFjZWNoYXQvVXNlci8y)
+I, [2017-05-01T23:50:04.878986 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f] Started POST "/conversations?user_id=1" for 127.0.0.1 at 2017-05-01 23:50:04 +0300
+I, [2017-05-01T23:50:04.881024 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f] Processing by ConversationsController#create as JS
+I, [2017-05-01T23:50:04.881190 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   Parameters: {"user_id"=>"1"}
+D, [2017-05-01T23:50:04.884248 #9760] DEBUG -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-01T23:50:04.891282 #9760] DEBUG -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   [1m[36mConversation Load (1.4ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE ("conversations"."sender_id" = $1 AND "conversations"."recipient_id" = $2 OR "conversations"."sender_id" = $3 AND "conversations"."recipient_id" = $4) ORDER BY "conversations"."id" ASC LIMIT $5[0m  [["sender_id", 2], ["recipient_id", 1], ["sender_id", 1], ["recipient_id", 2], ["LIMIT", 1]]
+I, [2017-05-01T23:50:04.903723 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   Rendering conversations/create.js.erb
+D, [2017-05-01T23:50:04.915564 #9760] DEBUG -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-01T23:50:04.918577 #9760] DEBUG -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+D, [2017-05-01T23:50:04.933500 #9760] DEBUG -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = $1[0m  [["conversation_id", 8]]
+I, [2017-05-01T23:50:04.943312 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   Rendered messages/_message.html.erb (0.5ms)
+I, [2017-05-01T23:50:04.943623 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-01T23:50:04.943896 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-01T23:50:04.944132 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-01T23:50:04.944228 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   Rendered conversations/_conversation_content.html.erb (13.6ms)
+I, [2017-05-01T23:50:04.944338 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   Rendered conversations/_conversation.html.erb (38.9ms)
+I, [2017-05-01T23:50:04.944704 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   Rendered conversations/create.js.erb (40.8ms)
+D, [2017-05-01T23:50:04.945311 #9760] DEBUG -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-01T23:50:04.946860 #9760] DEBUG -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = '2017-05-01 20:50:04.945478' WHERE "users"."id" = $1[0m  [["id", 2]]
+D, [2017-05-01T23:50:04.980202 #9760] DEBUG -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f]   [1m[35m (33.1ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-01T23:50:04.980483 #9760]  INFO -- : [5a964f91-0ee8-4632-9179-6ccebfdcab5f] Completed 200 OK in 99ms (Views: 39.4ms | ActiveRecord: 42.7ms)
+I, [2017-05-01T23:50:10.539817 #9760]  INFO -- : ConversationChannel#speak({"message"=>[{"name"=>"conversation_id", "value"=>"8"}, {"name"=>"user_id", "value"=>"2"}, {"name"=>"body", "value"=>"999"}]})
+D, [2017-05-01T23:50:10.541276 #9760] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-01T23:50:10.544773 #9760] DEBUG -- :   [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-01T23:50:10.549484 #9760] DEBUG -- :   [1m[36mConversation Load (0.4ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+D, [2017-05-01T23:50:10.573052 #9760] DEBUG -- :   [1m[35mSQL (21.5ms)[0m  [1m[32mINSERT INTO "messages" ("body", "user_id", "conversation_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["body", "999"], ["user_id", 2], ["conversation_id", 8], ["created_at", 2017-05-01 20:50:10 UTC], ["updated_at", 2017-05-01 20:50:10 UTC]]
+D, [2017-05-01T23:50:10.605892 #9760] DEBUG -- :   [1m[35m (32.2ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-01T23:50:10.610655 #9760]  INFO -- : [ActiveJob] Enqueued MessageBroadcastJob (Job ID: 43abc56a-14b3-4bfb-96ab-9ea116709c27) to Async(default) with arguments: #<GlobalID:0x82a3bd08 @uri=#<URI::GID gid://facechat/Message/57>>
+D, [2017-05-01T23:50:10.639103 #9760] DEBUG -- :   [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT $2[0m  [["id", 57], ["LIMIT", 1]]
+I, [2017-05-01T23:50:10.640071 #9760]  INFO -- : [ActiveJob] [MessageBroadcastJob] [43abc56a-14b3-4bfb-96ab-9ea116709c27] Performing MessageBroadcastJob from Async(default) with arguments: #<GlobalID:0x8289be30 @uri=#<URI::GID gid://facechat/Message/57>>
+D, [2017-05-01T23:50:10.642909 #9760] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [43abc56a-14b3-4bfb-96ab-9ea116709c27]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-01T23:50:10.645563 #9760] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [43abc56a-14b3-4bfb-96ab-9ea116709c27]   [1m[36mConversation Load (0.6ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+D, [2017-05-01T23:50:10.647160 #9760] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [43abc56a-14b3-4bfb-96ab-9ea116709c27]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-01T23:50:10.648856 #9760] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [43abc56a-14b3-4bfb-96ab-9ea116709c27]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-01T23:50:10.659555 #9760]  INFO -- : [ActiveJob] [MessageBroadcastJob] [43abc56a-14b3-4bfb-96ab-9ea116709c27]   Rendered messages/_message.html.erb (5.8ms)
+I, [2017-05-01T23:50:10.659728 #9760]  INFO -- : [ActiveJob] [MessageBroadcastJob] [43abc56a-14b3-4bfb-96ab-9ea116709c27] [ActionCable] Broadcasting to conversations-2: {:message=>"\n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      999\n    </div>\n  </div>\n</li>", :conversation_id=>8}
+I, [2017-05-01T23:50:10.661981 #9760]  INFO -- : [ActiveJob] [MessageBroadcastJob] [43abc56a-14b3-4bfb-96ab-9ea116709c27] Performed MessageBroadcastJob from Async(default) in 21.72ms
+I, [2017-05-01T23:52:23.747289 #9974]  INFO -- : [59517ecc-8566-45a1-b12b-732da085f072] Started GET "/cable" for 127.0.0.1 at 2017-05-01 23:52:23 +0300
+I, [2017-05-01T23:52:23.784415 #9974]  INFO -- : [59517ecc-8566-45a1-b12b-732da085f072] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-01 23:52:23 +0300
+I, [2017-05-01T23:52:23.784546 #9974]  INFO -- : [59517ecc-8566-45a1-b12b-732da085f072] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+D, [2017-05-01T23:52:23.844847 #9974] DEBUG -- :   [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+I, [2017-05-01T23:52:23.857006 #9974]  INFO -- : Registered connection (Z2lkOi8vZmFjZWNoYXQvVXNlci8y)
+I, [2017-05-02T01:25:56.436926 #14518]  INFO -- : [b0c621c4-d83b-43a1-a0e4-5d0ef4ec43b5] Started GET "/cable" for 127.0.0.1 at 2017-05-02 01:25:56 +0300
+I, [2017-05-02T01:25:56.480268 #14518]  INFO -- : [b0c621c4-d83b-43a1-a0e4-5d0ef4ec43b5] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-02 01:25:56 +0300
+I, [2017-05-02T01:25:56.480405 #14518]  INFO -- : [b0c621c4-d83b-43a1-a0e4-5d0ef4ec43b5] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+D, [2017-05-02T01:25:56.588254 #14518] DEBUG -- :   [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-02T01:25:56.600902 #14518]  INFO -- : Registered connection (Z2lkOi8vZmFjZWNoYXQvVXNlci8x)
+I, [2017-05-02T01:25:56.612737 #14518]  INFO -- : ConversationChannel is transmitting the subscription confirmation
+I, [2017-05-02T01:25:56.613082 #14518]  INFO -- : ConversationChannel is streaming from conversations-1
+I, [2017-05-02T01:25:58.735392 #14518]  INFO -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5] Started GET "/" for 127.0.0.1 at 2017-05-02 01:25:58 +0300
+I, [2017-05-02T01:25:58.737196 #14518]  INFO -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5] Processing by HomeController#index as HTML
+D, [2017-05-02T01:25:58.739825 #14518] DEBUG -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-02T01:25:58.751030 #14518]  INFO -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   Rendering home/index.html.erb within layouts/application
+D, [2017-05-02T01:25:58.759812 #14518] DEBUG -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   [1m[36mList Load (0.7ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE ("lists"."user_id" = $1 OR "lists"."contact_id" = $2)[0m  [["user_id", 1], ["contact_id", 1]]
+D, [2017-05-02T01:25:58.772001 #14518] DEBUG -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4)[0m
+D, [2017-05-02T01:25:58.774795 #14518] DEBUG -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (6, 1)[0m
+D, [2017-05-02T01:25:58.776802 #14518] DEBUG -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 1)[0m
+D, [2017-05-02T01:25:58.778999 #14518] DEBUG -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 3)[0m
+I, [2017-05-02T01:25:58.779738 #14518]  INFO -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   Rendered home/index.html.erb within layouts/application (28.5ms)
+D, [2017-05-02T01:25:58.781778 #14518] DEBUG -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T01:25:58.783655 #14518] DEBUG -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = '2017-05-01 22:25:58.782016' WHERE "users"."id" = $1[0m  [["id", 1]]
+D, [2017-05-02T01:25:58.807164 #14518] DEBUG -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5]   [1m[35m (23.2ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-02T01:25:58.807499 #14518]  INFO -- : [50c1633f-2728-4ceb-b5f6-55c05e1620c5] Completed 200 OK in 70ms (Views: 25.6ms | ActiveRecord: 36.0ms)
+I, [2017-05-02T01:25:58.817950 #14518]  INFO -- : Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-02 01:25:58 +0300
+I, [2017-05-02T01:25:58.818236 #14518]  INFO -- : ConversationChannel stopped streaming from conversations-1
+I, [2017-05-02T01:25:59.046183 #14518]  INFO -- : [31922d04-b21b-44d1-afc4-2df9de37e205] Started GET "/cable" for 127.0.0.1 at 2017-05-02 01:25:59 +0300
+I, [2017-05-02T01:25:59.046883 #14518]  INFO -- : [31922d04-b21b-44d1-afc4-2df9de37e205] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-02 01:25:59 +0300
+I, [2017-05-02T01:25:59.047000 #14518]  INFO -- : [31922d04-b21b-44d1-afc4-2df9de37e205] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+D, [2017-05-02T01:25:59.049657 #14518] DEBUG -- :   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-02T01:25:59.050358 #14518]  INFO -- : Registered connection (Z2lkOi8vZmFjZWNoYXQvVXNlci8x)
+I, [2017-05-02T01:25:59.097906 #14518]  INFO -- : ConversationChannel is transmitting the subscription confirmation
+I, [2017-05-02T01:25:59.098230 #14518]  INFO -- : ConversationChannel is streaming from conversations-1
+I, [2017-05-02T01:26:08.890473 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4] Started GET "/" for 127.0.0.1 at 2017-05-02 01:26:08 +0300
+I, [2017-05-02T01:26:08.891570 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4] Processing by HomeController#index as HTML
+D, [2017-05-02T01:26:08.894705 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-02T01:26:08.904454 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mConversation Load (1.2ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+D, [2017-05-02T01:26:08.923247 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2[0m
+D, [2017-05-02T01:26:08.938035 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = 8[0m
+I, [2017-05-02T01:26:08.950087 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   Rendering home/index.html.erb within layouts/application
+D, [2017-05-02T01:26:08.952003 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mList Load (0.6ms)[0m  [1m[34mSELECT "lists".* FROM "lists" WHERE ("lists"."user_id" = $1 OR "lists"."contact_id" = $2)[0m  [["user_id", 2], ["contact_id", 2]]
+D, [2017-05-02T01:26:08.953879 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 6)[0m
+D, [2017-05-02T01:26:08.955817 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 3)[0m
+D, [2017-05-02T01:26:08.957617 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 4)[0m
+D, [2017-05-02T01:26:08.959348 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 5)[0m
+D, [2017-05-02T01:26:08.961016 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 1)[0m
+D, [2017-05-02T01:26:08.962781 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 2)[0m
+D, [2017-05-02T01:26:08.964260 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (2, 7)[0m
+D, [2017-05-02T01:26:08.972452 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-02T01:26:08.977057 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   Rendered messages/_message.html.erb (0.5ms)
+I, [2017-05-02T01:26:08.977436 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:08.977725 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:08.978006 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:08.978265 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:08.979966 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   Rendered conversations/_conversation_content.html.erb (4.8ms)
+I, [2017-05-02T01:26:08.980254 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   Rendered conversations/_conversation.html.erb (14.3ms)
+I, [2017-05-02T01:26:08.980456 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   Rendered home/index.html.erb within layouts/application (30.2ms)
+D, [2017-05-02T01:26:08.981872 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T01:26:08.983385 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = '2017-05-01 22:26:08.982059' WHERE "users"."id" = $1[0m  [["id", 2]]
+D, [2017-05-02T01:26:09.049486 #14518] DEBUG -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4]   [1m[35m (65.8ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-02T01:26:09.049829 #14518]  INFO -- : [10d1165a-b1e7-4282-9d95-e1c4090cabd4] Completed 200 OK in 158ms (Views: 26.7ms | ActiveRecord: 84.1ms)
+I, [2017-05-02T01:26:09.787466 #14518]  INFO -- : [72ea18f5-bb66-4c57-b806-9d75ced884d9] Started GET "/cable" for 127.0.0.1 at 2017-05-02 01:26:09 +0300
+I, [2017-05-02T01:26:09.788090 #14518]  INFO -- : [72ea18f5-bb66-4c57-b806-9d75ced884d9] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-02 01:26:09 +0300
+I, [2017-05-02T01:26:09.788180 #14518]  INFO -- : [72ea18f5-bb66-4c57-b806-9d75ced884d9] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+D, [2017-05-02T01:26:09.790723 #14518] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+I, [2017-05-02T01:26:09.791404 #14518]  INFO -- : Registered connection (Z2lkOi8vZmFjZWNoYXQvVXNlci8y)
+I, [2017-05-02T01:26:09.793601 #14518]  INFO -- : ConversationChannel is transmitting the subscription confirmation
+I, [2017-05-02T01:26:09.793896 #14518]  INFO -- : ConversationChannel is streaming from conversations-2
+I, [2017-05-02T01:26:53.709823 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb] Started POST "/conversations?user_id=2" for 127.0.0.1 at 2017-05-02 01:26:53 +0300
+I, [2017-05-02T01:26:53.711971 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb] Processing by ConversationsController#create as JS
+I, [2017-05-02T01:26:53.712115 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Parameters: {"user_id"=>"2"}
+D, [2017-05-02T01:26:53.715190 #14518] DEBUG -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+D, [2017-05-02T01:26:53.718767 #14518] DEBUG -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   [1m[36mConversation Load (0.8ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE ("conversations"."sender_id" = $1 AND "conversations"."recipient_id" = $2 OR "conversations"."sender_id" = $3 AND "conversations"."recipient_id" = $4) ORDER BY "conversations"."id" ASC LIMIT $5[0m  [["sender_id", 1], ["recipient_id", 2], ["sender_id", 2], ["recipient_id", 1], ["LIMIT", 1]]
+I, [2017-05-02T01:26:53.724545 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Rendering conversations/create.js.erb
+D, [2017-05-02T01:26:53.730418 #14518] DEBUG -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-02T01:26:53.736660 #14518] DEBUG -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = $1[0m  [["conversation_id", 8]]
+I, [2017-05-02T01:26:53.739239 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Rendered messages/_message.html.erb (0.7ms)
+I, [2017-05-02T01:26:53.739627 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:53.739962 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:53.740254 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:53.740575 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:53.740692 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Rendered conversations/_conversation_content.html.erb (6.9ms)
+I, [2017-05-02T01:26:53.740831 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Rendered conversations/_conversation.html.erb (14.4ms)
+I, [2017-05-02T01:26:53.741343 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   Rendered conversations/create.js.erb (16.6ms)
+D, [2017-05-02T01:26:53.742034 #14518] DEBUG -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T01:26:53.743817 #14518] DEBUG -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = '2017-05-01 22:26:53.742214' WHERE "users"."id" = $1[0m  [["id", 1]]
+D, [2017-05-02T01:26:53.768190 #14518] DEBUG -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb]   [1m[35m (24.1ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-02T01:26:53.768527 #14518]  INFO -- : [2737b344-71f0-4fab-b512-e8ddb48ba1eb] Completed 200 OK in 56ms (Views: 19.7ms | ActiveRecord: 27.5ms)
+I, [2017-05-02T01:26:58.081171 #14518]  INFO -- : ConversationChannel#speak({"message"=>[{"name"=>"conversation_id", "value"=>"8"}, {"name"=>"user_id", "value"=>"1"}, {"name"=>"body", "value"=>"0000"}]})
+D, [2017-05-02T01:26:58.083139 #14518] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T01:26:58.088028 #14518] DEBUG -- :   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+D, [2017-05-02T01:26:58.093580 #14518] DEBUG -- :   [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+D, [2017-05-02T01:26:58.136633 #14518] DEBUG -- :   [1m[35mSQL (40.3ms)[0m  [1m[32mINSERT INTO "messages" ("body", "user_id", "conversation_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["body", "0000"], ["user_id", 1], ["conversation_id", 8], ["created_at", 2017-05-01 22:26:58 UTC], ["updated_at", 2017-05-01 22:26:58 UTC]]
+D, [2017-05-02T01:26:58.398588 #14518] DEBUG -- :   [1m[35m (261.2ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-02T01:26:58.404262 #14518]  INFO -- : [ActiveJob] Enqueued MessageBroadcastJob (Job ID: 9d2fb298-3fc0-426b-8733-9f6cbd789bea) to Async(default) with arguments: #<GlobalID:0x81bc9590 @uri=#<URI::GID gid://facechat/Message/58>>
+D, [2017-05-02T01:26:58.446264 #14518] DEBUG -- :   [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT $2[0m  [["id", 58], ["LIMIT", 1]]
+I, [2017-05-02T01:26:58.447175 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea] Performing MessageBroadcastJob from Async(default) with arguments: #<GlobalID:0x832fae44 @uri=#<URI::GID gid://facechat/Message/58>>
+D, [2017-05-02T01:26:58.459744 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+D, [2017-05-02T01:26:58.462354 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   [1m[36mConversation Load (0.5ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+D, [2017-05-02T01:26:58.464934 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+I, [2017-05-02T01:26:58.470692 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered messages/_message.html.erb (0.6ms)
+I, [2017-05-02T01:26:58.470838 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea] [ActionCable] Broadcasting to conversations-1: {:message=>"\n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      0000\n    </div>\n  </div>\n</li>", :conversation_id=>8}
+D, [2017-05-02T01:26:58.478829 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-02T01:26:58.486231 #14518]  INFO -- : ConversationChannel transmitting {"message"=>"\n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      0000\n    </div>\n  </div>\n</li>", "conversation_id"=>8} (via streamed from conversations-1)
+D, [2017-05-02T01:26:58.487507 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = $1[0m  [["conversation_id", 8]]
+I, [2017-05-02T01:26:58.488937 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:58.490006 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:58.490384 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:58.490715 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:58.491025 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:58.491293 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:58.491413 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered conversations/_conversation_content.html.erb (6.5ms)
+I, [2017-05-02T01:26:58.491537 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered conversations/_conversation.html.erb (14.6ms)
+I, [2017-05-02T01:26:58.492085 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:26:58.492298 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea] [ActionCable] Broadcasting to conversations-2: {:window=>"\n\n<li class=\" \">\n  <div class=\"panel panel-primary\" data-conversation-id=\"8\">\n    <div class=\"panel-heading text-center\">\n      <a class=\"toggle-window\" href=\"\">user-1@example.com</a>\n\n<a class=\"btn btn-info  btn-xs pull-right\" data-remote=\"true\" rel=\"nofollow\" data-method=\"post\" href=\"/conversations/8/close\">x</a>\n\n<a class=\"btn btn-info small-w btn-xs pull-right\" data-remote=\"true\" rel=\"nofollow\" data-method=\"post\" href=\"/conversations/8/toggleDownscale\">_</a>\n  \n    </div>\n\n    <div class=\"panel-body\" style=\"display: none;\">\n      <div class=\"messages-list\">\n        <ul>\n            \n<li>\n  <div class=\"row\">\n    <div class=\"message-received\">\n      123\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      321\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      456\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-received\">\n      888\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      999\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-received\">\n      0000\n    </div>\n  </div>\n</li>\n\n        </ul>\n      </div>\n\n\n\n    \n\n\n<form class=\"new_message\">\n        <input name=\"conversation_id\" type=\"hidden\" value=\"8\">\n        <input name=\"user_id\" type=\"hidden\" value=\"2\">\n        <textarea name=\"body\" class=\"form-control\"></textarea>\n        <input type=\"submit\" class=\"btn btn-primary pad-top\" value=\"Send\">\n      </form>\n\n\n\n    </div>\n  </div>\n</li>\n", :message=>"\n<li>\n  <div class=\"row\">\n    <div class=\"message-received\">\n      0000\n    </div>\n  </div>\n</li>", :conversation_id=>8}
+I, [2017-05-02T01:26:58.493085 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [9d2fb298-3fc0-426b-8733-9f6cbd789bea] Performed MessageBroadcastJob from Async(default) in 45.72ms
+I, [2017-05-02T01:26:58.495657 #14518]  INFO -- : ConversationChannel transmitting {"window"=>"\n\n<li class=\" \">\n  <div class=\"panel panel-primary\" data-conversation-id=\"8\">\n    <div class=\"panel-heading text-center\">\n      <a class=\"toggle-window\" href=\"\">user-1@example.com</a>\n\n<a class=\"btn btn-info  btn-xs pull-right\" data-remote=\"true\" rel=\"nofollow\... (via streamed from conversations-2)
+I, [2017-05-02T01:27:15.029508 #14518]  INFO -- : ConversationChannel#speak({"message"=>[{"name"=>"conversation_id", "value"=>"8"}, {"name"=>"user_id", "value"=>"2"}, {"name"=>"body", "value"=>"999"}]})
+D, [2017-05-02T01:27:15.030508 #14518] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T01:27:15.032343 #14518] DEBUG -- :   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-02T01:27:15.037266 #14518] DEBUG -- :   [1m[36mConversation Load (2.4ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+D, [2017-05-02T01:27:15.039786 #14518] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "messages" ("body", "user_id", "conversation_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["body", "999"], ["user_id", 2], ["conversation_id", 8], ["created_at", 2017-05-01 22:27:15 UTC], ["updated_at", 2017-05-01 22:27:15 UTC]]
+D, [2017-05-02T01:27:15.062205 #14518] DEBUG -- :   [1m[35m (21.9ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-02T01:27:15.063572 #14518]  INFO -- : [ActiveJob] Enqueued MessageBroadcastJob (Job ID: 80214f54-29e4-4988-9b2c-fab73dc51373) to Async(default) with arguments: #<GlobalID:0x83231878 @uri=#<URI::GID gid://facechat/Message/59>>
+D, [2017-05-02T01:27:15.064761 #14518] DEBUG -- :   [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT $2[0m  [["id", 59], ["LIMIT", 1]]
+I, [2017-05-02T01:27:15.065479 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373] Performing MessageBroadcastJob from Async(default) with arguments: #<GlobalID:0x8322d318 @uri=#<URI::GID gid://facechat/Message/59>>
+D, [2017-05-02T01:27:15.067194 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-02T01:27:15.069110 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   [1m[36mConversation Load (0.4ms)[0m  [1m[34mSELECT  "conversations".* FROM "conversations" WHERE "conversations"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+D, [2017-05-02T01:27:15.070435 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+D, [2017-05-02T01:27:15.071927 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-02T01:27:15.072769 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:27:15.072884 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373] [ActionCable] Broadcasting to conversations-2: {:message=>"\n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      999\n    </div>\n  </div>\n</li>", :conversation_id=>8}
+I, [2017-05-02T01:27:15.073713 #14518]  INFO -- : ConversationChannel transmitting {"message"=>"\n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      999\n    </div>\n  </div>\n</li>", "conversation_id"=>8} (via streamed from conversations-2)
+D, [2017-05-02T01:27:15.077767 #14518] DEBUG -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."conversation_id" = $1[0m  [["conversation_id", 8]]
+I, [2017-05-02T01:27:15.078778 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:27:15.079096 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:27:15.079385 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:27:15.079667 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:27:15.079913 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:27:15.080196 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:27:15.080421 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered messages/_message.html.erb (0.1ms)
+I, [2017-05-02T01:27:15.080515 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered conversations/_conversation_content.html.erb (3.8ms)
+I, [2017-05-02T01:27:15.080628 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered conversations/_conversation.html.erb (6.0ms)
+I, [2017-05-02T01:27:15.081101 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373]   Rendered messages/_message.html.erb (0.0ms)
+I, [2017-05-02T01:27:15.081269 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373] [ActionCable] Broadcasting to conversations-1: {:window=>"\n\n<li class=\" \">\n  <div class=\"panel panel-primary\" data-conversation-id=\"8\">\n    <div class=\"panel-heading text-center\">\n      <a class=\"toggle-window\" href=\"\">user-2@example.com</a>\n\n<a class=\"btn btn-info  btn-xs pull-right\" data-remote=\"true\" rel=\"nofollow\" data-method=\"post\" href=\"/conversations/8/close\">x</a>\n\n<a class=\"btn btn-info small-w btn-xs pull-right\" data-remote=\"true\" rel=\"nofollow\" data-method=\"post\" href=\"/conversations/8/toggleDownscale\">_</a>\n  \n    </div>\n\n    <div class=\"panel-body\" style=\"display: none;\">\n      <div class=\"messages-list\">\n        <ul>\n            \n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      123\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-received\">\n      321\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-received\">\n      456\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      888\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-received\">\n      999\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-sent\">\n      0000\n    </div>\n  </div>\n</li>\n  \n<li>\n  <div class=\"row\">\n    <div class=\"message-received\">\n      999\n    </div>\n  </div>\n</li>\n\n        </ul>\n      </div>\n\n\n\n    \n\n\n<form class=\"new_message\">\n        <input name=\"conversation_id\" type=\"hidden\" value=\"8\">\n        <input name=\"user_id\" type=\"hidden\" value=\"1\">\n        <textarea name=\"body\" class=\"form-control\"></textarea>\n        <input type=\"submit\" class=\"btn btn-primary pad-top\" value=\"Send\">\n      </form>\n\n\n\n    </div>\n  </div>\n</li>\n", :message=>"\n<li>\n  <div class=\"row\">\n    <div class=\"message-received\">\n      999\n    </div>\n  </div>\n</li>", :conversation_id=>8}
+I, [2017-05-02T01:27:15.082020 #14518]  INFO -- : [ActiveJob] [MessageBroadcastJob] [80214f54-29e4-4988-9b2c-fab73dc51373] Performed MessageBroadcastJob from Async(default) in 16.37ms
+I, [2017-05-02T01:27:15.082695 #14518]  INFO -- : ConversationChannel transmitting {"window"=>"\n\n<li class=\" \">\n  <div class=\"panel panel-primary\" data-conversation-id=\"8\">\n    <div class=\"panel-heading text-center\">\n      <a class=\"toggle-window\" href=\"\">user-2@example.com</a>\n\n<a class=\"btn btn-info  btn-xs pull-right\" data-remote=\"true\" rel=\"nofollow\... (via streamed from conversations-1)
+I, [2017-05-02T01:27:42.736770 #14626]  INFO -- : [a15b5e4c-f90b-4667-be36-4b2446ad2d5f] Started GET "/cable" for 127.0.0.1 at 2017-05-02 01:27:42 +0300
+I, [2017-05-02T01:27:42.782187 #14626]  INFO -- : [a15b5e4c-f90b-4667-be36-4b2446ad2d5f] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-02 01:27:42 +0300
+I, [2017-05-02T01:27:42.782352 #14626]  INFO -- : [a15b5e4c-f90b-4667-be36-4b2446ad2d5f] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+D, [2017-05-02T01:27:42.846775 #14626] DEBUG -- :   [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+I, [2017-05-02T01:27:42.859845 #14626]  INFO -- : Registered connection (Z2lkOi8vZmFjZWNoYXQvVXNlci8y)
+I, [2017-05-02T01:27:42.867600 #14626]  INFO -- : ConversationChannel is transmitting the subscription confirmation
+I, [2017-05-02T01:27:42.867940 #14626]  INFO -- : ConversationChannel is streaming from conversations-2
+I, [2017-05-02T01:27:44.400197 #14626]  INFO -- : [7c907a82-4617-45e0-80e5-5825e6eeab0c] Started GET "/cable" for 127.0.0.1 at 2017-05-02 01:27:44 +0300
+I, [2017-05-02T01:27:44.400752 #14626]  INFO -- : [7c907a82-4617-45e0-80e5-5825e6eeab0c] Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-05-02 01:27:44 +0300
+I, [2017-05-02T01:27:44.400828 #14626]  INFO -- : [7c907a82-4617-45e0-80e5-5825e6eeab0c] Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+D, [2017-05-02T01:27:44.404168 #14626] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+I, [2017-05-02T01:27:44.404952 #14626]  INFO -- : Registered connection (Z2lkOi8vZmFjZWNoYXQvVXNlci8x)
+I, [2017-05-02T01:27:44.407611 #14626]  INFO -- : ConversationChannel is transmitting the subscription confirmation
+I, [2017-05-02T01:27:44.407907 #14626]  INFO -- : ConversationChannel is streaming from conversations-1
+I, [2017-05-02T01:27:46.123064 #14626]  INFO -- : [141fb0f9-5053-401d-aecb-dc5f5c49631b] Started GET "/search?term=u" for 127.0.0.1 at 2017-05-02 01:27:46 +0300
+I, [2017-05-02T01:27:46.125587 #14626]  INFO -- : [141fb0f9-5053-401d-aecb-dc5f5c49631b] Processing by HomeController#search as JSON
+I, [2017-05-02T01:27:46.125722 #14626]  INFO -- : [141fb0f9-5053-401d-aecb-dc5f5c49631b]   Parameters: {"term"=>"u"}
+D, [2017-05-02T01:27:46.128748 #14626] DEBUG -- : [141fb0f9-5053-401d-aecb-dc5f5c49631b]   [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+D, [2017-05-02T01:27:46.131961 #14626] DEBUG -- : [141fb0f9-5053-401d-aecb-dc5f5c49631b]   [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE (lower(email) LIKE 'u_%')[0m
+D, [2017-05-02T01:27:46.134087 #14626] DEBUG -- : [141fb0f9-5053-401d-aecb-dc5f5c49631b]   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-05-02T01:27:46.136448 #14626] DEBUG -- : [141fb0f9-5053-401d-aecb-dc5f5c49631b]   [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = '2017-05-01 22:27:46.134385' WHERE "users"."id" = $1[0m  [["id", 1]]
+D, [2017-05-02T01:27:46.165561 #14626] DEBUG -- : [141fb0f9-5053-401d-aecb-dc5f5c49631b]   [1m[35m (28.7ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-05-02T01:27:46.166440 #14626]  INFO -- : [141fb0f9-5053-401d-aecb-dc5f5c49631b] Completed 200 OK in 40ms (Views: 0.5ms | ActiveRecord: 31.6ms)

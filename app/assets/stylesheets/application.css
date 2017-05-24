@@ -1,0 +1,100 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require jquery-ui
+ *= require_tree .
+ *= require_self
+ */
+.logout-b{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+body{
+  overflow-x:hidden;
+}
+.small-conv{
+
+    display: block;
+    position: absolute;
+  
+    left: -50vw;
+   
+}
+ul {
+  padding-left: 0px;
+  list-style: none;
+}
+.b-mar{
+  margin-top: 10px!important;
+}
+.pad-log{
+  margin-top: 20vh;
+}
+.b-log{
+  margin: 0 auto;
+  display: block;
+}
+.panel-heading a{
+  margin-left: 3px;
+  margin-right: 3px;
+  color: #fff;
+}
+.panel-body{
+  font-size: 1.1em;
+}
+.panel-body a{
+
+}
+.pad-top{
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+}
+.panel{
+  border-radius: 0;
+  border:0;
+}
+.panel-heading{
+  border-radius: 0;
+}
+.messages-list {
+  max-height: 70vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+ 
+ .no-p-r{
+  padding-right: 0;
+
+ }
+ .no-p-l{
+  padding-left: 0;
+  padding-right: 0;
+ }
+.message-sent {
+  position: relative;
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  margin: 5px 20px;
+  padding: 10px;
+  float: right;
+}
+ 
+ 
+.message-received {
+  background-color: #F1F0F0;
+  border-color: #EEEEEE;
+  margin: 5px 20px;
+  padding: 10px;
+  float: left;
+}

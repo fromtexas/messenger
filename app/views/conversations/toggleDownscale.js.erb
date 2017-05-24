@@ -1,0 +1,4 @@
+
+
+$('#conversations-list').find("[data-conversation-id='" + "<%= @conversation.id %>" + "']").parent().addClass('small-conv');
+$('.toggeled-panels').append('<li><div class="panel panel-primary" data-conversation-id="'+"<%= @conversation.id %>"+'"><div class="panel-heading"><%= link_to @conversation.opposed_user(current_user).email, toggleUpscale_conversation_path(@conversation), remote: true, method: :post %></div></div></li>');
