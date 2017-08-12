@@ -1,4 +1,4 @@
-# README
+# Ruby on Rails messenger
 
 
 
