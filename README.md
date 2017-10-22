@@ -22,10 +22,10 @@ Rails messenger with jquery and redis -> [Demo](http://test.crimsonraven.lclient
 ## Run on your Machine
    
 1. Clone Repository: `git@github.com:fromtexas/rails-messenger.git`
-2. cd rails-messenger
-3. bundle
+2. `cd rails-messenger`
+3. `bundle`
 4. create your DB & and put configs in config/database.yml
-5. rails s
+5. `rails s`
 6. visit http://localhost:3000/
 
 ## Improve
