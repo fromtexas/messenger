@@ -1,8 +1,8 @@
 # rails-messenger
 
-Rails messenger with jquery and redis -> [Demo](http://test.crimsonraven.lclients.ru | width=400)
+Rails messenger with jquery and redis -> [Demo](http://test.crimsonraven.lclients.ru)
 
-![rails-messenger](https://image.ibb.co/gvYb5m/rails_mess.png)
+![rails-messenger](https://image.ibb.co/gvYb5m/rails_mess.png | width=400)
 
 ## Includes
 * Ruby version 2.4.0
