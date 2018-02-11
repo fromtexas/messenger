@@ -2,7 +2,7 @@
 
 Rails messenger with jquery and redis -> [Demo](http://test.crimsonraven.lclients.ru)
 
-![rails-messenger](https://image.ibb.co/c7u8km/rails_mess.png>) 
+![rails-messenger](https://image.ibb.co/n1AKmS/c1.png) 
 
 ## Includes
 * Ruby version 2.4.0
